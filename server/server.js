@@ -49,6 +49,7 @@ const sendMail = async (mailOptions) => {
 		});
 
 		return await transporter.sendMail(mailOptions);
+		// return console.log(mailOptions);
 	} catch (error) {
 		console.error("Error occurred while sending email:", error);
 		throw new Error("Не вдалося відправити повідомлення");
@@ -57,13 +58,15 @@ const sendMail = async (mailOptions) => {
 
 // Обробка запиту на відправлення листа
 app.post("/send", async (req, res) => {
-	const { name, email, message } = req.body;
+	console.log(req.body);
 
+	const { name, email, message } = req.body;
 	const mailOptions = {
 		from: email,
 		to: "janegridina@gmail.com", // на яку пошту надсилати
-		subject: `Повідомлення від ${name}`,
-		text: message,
+		subject: `Повідомлення від ${name} ${email}`,
+		// text: message,
+		html: `<p>Вам пришло уведомление со следующим текстом:</p>\n<p>${message}</p>\n<p>Почта отправителя ${email}</p>`,
 	};
 
 	try {

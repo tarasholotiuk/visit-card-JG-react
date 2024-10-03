@@ -1,0 +1,43 @@
+{
+	"projects": [
+		{
+			"name": {
+				"en": "Project Sunshine",
+				"uk": "Проект Сонце"
+			},
+			"city": "Київ",
+			"area": "120 м²",
+			"images": [
+				"images/project_sunshine/image1.jpg",
+				"images/project_sunshine/image2.jpg",
+				"images/project_sunshine/image3.jpg"
+			]
+		},
+		{
+			"name": {
+				"en": "Green Valley",
+				"uk": "Зелена Долина"
+			},
+			"city": "Львів",
+			"area": "200 м²",
+			"images": [
+        "images/green_valley/image1.jpg",
+        "images/green_valley/image2.jpg",
+        "images/green_valley/image3.jpg"
+      ]
+		},
+		{
+			"name": {
+				"en": "Urban Residence",
+				"uk": "Міська Резиденція"
+			},
+			"city": "Одеса",
+			"area": "150 м²",
+			"images": [
+				"images/urban_residence/image1.jpg",
+				"images/urban_residence/image2.jpg",
+				"images/urban_residence/image3.jpg"
+			]
+		}
+	]
+}

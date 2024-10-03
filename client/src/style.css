@@ -1,0 +1,172 @@
+/* src/style.css */
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	background-color: #f4f4f4;
+	padding: 0px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.App {
+	max-width: 80%;
+	margin: auto;
+}
+
+/* Header styles */
+header {
+	/* width: 80%; */
+	height: 300px;
+	margin: auto;
+	background: linear-gradient(to right, #ffffff, #dac1cd);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	color: white;
+}
+
+.logo {
+	padding: 25px;
+	height: 100%;
+}
+
+.container {
+	padding: 100px;
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.container > a {
+	flex: 0 1 50%;
+}
+
+.tg,
+.wt {
+	width: 50px;
+}
+
+/* Form styles */
+form {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+form input,
+form textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+form button {
+	background: #28a745;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+form button:hover {
+	background: #218838;
+}
+
+/* .about-me-main {
+	display: flex;
+	justify-content: center;
+}
+
+.about-me-text {
+	font-size: 24px;
+	margin: 100px 100px;
+}
+.about-me-text > p {
+	text-indent: 20px;
+}
+
+.photo-jg {
+	max-width: 50%;
+} */
+.profile-container {
+	display: flex;
+	align-items: flex-start;
+	gap: 50px;
+}
+
+.profile-text {
+	/* flex: 1; */
+	font-size: 24px;
+	/* text-indent: 20px; */
+	text-align: justify;
+}
+
+.profile-image {
+	/* flex: 0 0 300px; Ширина зображення */
+	max-width: 30%;
+}
+
+.profile-image img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}

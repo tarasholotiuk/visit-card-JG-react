@@ -54,43 +54,109 @@ a {
 }
 
 .App {
-	max-width: 80%;
+	max-width: 100%;
 	margin: auto;
 }
 
 /* Header styles */
 header {
-	/* width: 80%; */
-	height: 300px;
-	margin: auto;
+	width: 100%;
+	height: 130px;
 	background: linear-gradient(to right, #ffffff, #dac1cd);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px;
-	color: white;
+	padding: 20px;
+	color: #333333;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	/* position: sticky; */
+	/* top: 0;
+	z-index: 1000; */
 }
 
 .logo {
-	padding: 25px;
-	height: 100%;
+	height: 100px;
+	width: 246px;
 }
 
-.container {
-	padding: 100px;
-	width: 300px;
+.menu {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	gap: 20px;
 }
 
-.container > a {
-	flex: 0 1 50%;
+/* Стилі для пунктів меню */
+.menu-item {
+	text-decoration: none;
+	font-family: "Lora", serif;
+	font-size: 25px;
+	color: #333333;
+	position: relative;
+	padding: 5px 0;
+	transition: color 0.3s;
+}
+
+.menu-item:hover,
+.menu-item.active {
+	color: #b35f77;
+}
+
+.menu-item::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 0;
+	height: 2px;
+	background-color: #9c7b5c;
+	transition: width 0.3s ease;
+}
+
+.menu-item:hover::after,
+.menu-item.active::after {
+	width: 100%;
+}
+
+.menu-item.active {
+	color: #9c7b5c;
+}
+
+/* Контейнер соціальних посилань */
+.container-socials {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.container-socials > a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .tg,
 .wt {
-	width: 50px;
+	width: 35px;
+	height: 35px;
+	object-fit: contain;
+	transition: transform 0.3s ease;
+}
+
+.tg:hover,
+.wt:hover {
+	transform: scale(1.1);
+}
+
+.mail {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #333;
+	text-decoration: none;
+	margin-left: 10px;
+	transition: color 0.3s ease;
+}
+
+.mail:hover {
+	color: #b35f77;
 }
 
 /* Form styles */
@@ -131,42 +197,189 @@ form button:hover {
 	background: #218838;
 }
 
-/* .about-me-main {
-	display: flex;
-	justify-content: center;
+/* Профільні стилі */
+.profile-title {
+	text-align: center;
+	margin: 50px 0;
 }
 
-.about-me-text {
-	font-size: 24px;
-	margin: 100px 100px;
-}
-.about-me-text > p {
-	text-indent: 20px;
+.profile-title h2 {
+	font-size: 36px;
+	font-family: "Advent Pro", sans-serif;
+	color: #333333;
+	margin-bottom: 20px;
 }
 
-.photo-jg {
-	max-width: 50%;
-} */
 .profile-container {
 	display: flex;
-	align-items: flex-start;
-	gap: 50px;
+	align-items: stretch; /* Вирівнює висоту контейнерів тексту та зображення */
+	gap: 30px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	max-width: 1100px;
+	margin: auto;
 }
 
 .profile-text {
-	/* flex: 1; */
-	font-size: 24px;
-	/* text-indent: 20px; */
+	font-size: 18px;
+	font-family: "Lora", serif;
 	text-align: justify;
+	color: #333333;
+	line-height: 1.6;
+	flex: 2; /* Додає гнучкість для тексту */
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Вирівнює текст по центру */
+}
+
+.profile-text p {
+	margin-bottom: 15px;
 }
 
 .profile-image {
-	/* flex: 0 0 300px; Ширина зображення */
-	max-width: 30%;
+	flex: 1; /* Додає гнучкість для зображення */
+	display: flex;
+	align-items: center; /* Вирівнює зображення по вертикалі */
+	max-height: 100%; /* Зменшує ризик надмірного збільшення зображення */
 }
 
 .profile-image img {
 	width: 100%;
 	height: auto;
-	object-fit: cover;
+	object-fit: cover; /* Забезпечує правильне відображення зображення */
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ScrollToTopButton */
+.scroll-to-top {
+	position: fixed; /* Закріплює кнопку на екрані */
+	bottom: 20px; /* Відстань від нижньої частини */
+	right: 20px; /* Відстань від правого краю */
+}
+
+.scroll-button {
+	width: 60px; /* Ширина кнопки */
+	height: 60px; /* Висота кнопки */
+	border-radius: 50%; /* Кругла кнопка */
+	background-color: #b35f77; /* Колір кнопки */
+	color: white; /* Колір тексту */
+	border: none; /* Без рамки */
+	font-size: 24px; /* Розмір шрифту */
+	cursor: pointer; /* Курсор вказівник */
+	transition: background-color 0.3s ease; /* Плавний перехід */
+}
+
+.scroll-button:hover {
+	background-color: #9c7b5c; /* Зміна кольору при наведенні */
+}
+
+.scroll-button.active {
+	background-color: #9c7b5c;
+}
+
+.menu-up {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 60px; /* Відстань від кнопки */
+	right: 10px; /* Відстань від лівого краю */
+	background-color: #fff; /* Колір фону */
+	border-radius: 8px; /* Закруглені кути */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	opacity: 0; /* Сховане за замовчуванням */
+	transform: translateY(10px); /* Спочатку меню знаходиться трохи нижче */
+	transition: opacity 0.3s ease, transform 0.3s ease; /* Плавні переходи */
+	pointer-events: none; /* Блокує події курсора, поки меню не видимо */
+	width: 200px; /* Ширина меню */
+	z-index: 1000; /* Перекриває інші елементи */
+}
+
+.menu-up-item {
+	padding: 10px;
+	text-align: center; /* Вирівнює текст по центру */
+	color: #333;
+	text-decoration: none;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-up-item:hover {
+	background-color: #f4f4f4; /* Колір фону при наведенні */
+	color: #b35f77; /* Колір тексту при наведенні */
+}
+
+/* Додатковий клас для видимого стану меню */
+.scroll-to-top .menu-up.active {
+	opacity: 1; /* Показати меню */
+	transform: translateY(0); /* Перемістити на місце */
+	pointer-events: auto; /* Дозволяє взаємодію з меню */
+}
+
+/* Адаптивні стилі */
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		height: auto;
+		padding: 15px;
+	}
+
+	.logo {
+		height: 50px;
+		margin-bottom: 10px;
+	}
+
+	.menu {
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.container {
+		margin-top: 10px;
+	}
+
+	.profile-container {
+		padding: 15px;
+		gap: 15px;
+	}
+
+	.profile-text {
+		font-size: 16px;
+	}
+
+	.profile-image {
+		max-width: 200px;
+	}
+
+	.back-to-top {
+		bottom: 15px;
+		right: 15px;
+	}
+
+	.back-button {
+		padding: 8px 12px; /* Зменшення розмірів для мобільних */
+	}
+
+	.menu-up {
+		font-size: 14px; /* Зменшення шрифту для меню */
+	}
+}
+
+@media (max-width: 480px) {
+	.profile-container {
+		flex-direction: column;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.profile-text {
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.profile-title h2 {
+		font-size: 28px;
+	}
 }

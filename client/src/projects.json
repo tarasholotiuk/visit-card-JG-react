@@ -1,43 +1,133 @@
-{
-	"projects": [
-		{
-			"name": {
-				"en": "Project Sunshine",
-				"uk": "Проект Сонце"
-			},
-			"city": "Київ",
-			"area": "120 м²",
-			"images": [
-				"images/project_sunshine/image1.jpg",
-				"images/project_sunshine/image2.jpg",
-				"images/project_sunshine/image3.jpg"
-			]
-		},
-		{
-			"name": {
-				"en": "Green Valley",
-				"uk": "Зелена Долина"
-			},
-			"city": "Львів",
-			"area": "200 м²",
-			"images": [
-        "images/green_valley/image1.jpg",
-        "images/green_valley/image2.jpg",
-        "images/green_valley/image3.jpg"
-      ]
-		},
-		{
-			"name": {
-				"en": "Urban Residence",
-				"uk": "Міська Резиденція"
-			},
-			"city": "Одеса",
-			"area": "150 м²",
-			"images": [
-				"images/urban_residence/image1.jpg",
-				"images/urban_residence/image2.jpg",
-				"images/urban_residence/image3.jpg"
-			]
-		}
-	]
-}
+[
+	{
+		"id": 1,
+		"title": "Частный дом",
+		"imageUrl": "/images/projects/Sochi/44_Interactive LightMix.jpg",
+		"city": "Сочи",
+		"area": 120,
+		"images": [
+			"/images/projects/Sochi/1_Interactive LightMix (2).jpg",
+			"/images/projects/Sochi/1_Interactive LightMix.jpg",
+			"/images/projects/Sochi/2_Interactive LightMix (2).jpg",
+			"/images/projects/Sochi/2_Interactive LightMix (3).jpg",
+			"/images/projects/Sochi/2_Interactive LightMix.jpg",
+			"/images/projects/Sochi/3_Interactive LightMix (2).jpg",
+			"/images/projects/Sochi/3_Interactive LightMix.jpg",
+			"/images/projects/Sochi/4_Interactive LightMix (2).jpg",
+			"/images/projects/Sochi/4_Interactive LightMix.jpg",
+			"/images/projects/Sochi/5_Interactive LightMix (2).jpg",
+			"/images/projects/Sochi/5_Interactive LightMix.jpg",
+			"/images/projects/Sochi/6_Interactive LightMix.jpg",
+			"/images/projects/Sochi/10_Interactive LightMix.jpg",
+			"/images/projects/Sochi/11_Interactive LightMix.jpg",
+			"/images/projects/Sochi/12_Interactive LightMix.jpg",
+			"/images/projects/Sochi/13_Interactive LightMix.jpg",
+			"/images/projects/Sochi/14_Interactive LightMix.jpg",
+			"/images/projects/Sochi/15_Interactive LightMix.jpg",
+			"/images/projects/Sochi/16_Interactive LightMix.jpg",
+			"/images/projects/Sochi/17_Interactive LightMix.jpg",
+			"/images/projects/Sochi/18_Interactive LightMix.jpg",
+			"/images/projects/Sochi/19_Interactive LightMix.jpg",
+			"/images/projects/Sochi/20_Interactive LightMix.jpg",
+			"/images/projects/Sochi/22.jpg",
+			"/images/projects/Sochi/30_Interactive LightMix.jpg",
+			"/images/projects/Sochi/33_Interactive LightMix.jpg",
+			"/images/projects/Sochi/40_Interactive LightMix.jpg",
+			"/images/projects/Sochi/44_Interactive LightMix.jpg",
+			"/images/projects/Sochi/50_Interactive LightMix.jpg",
+			"/images/projects/Sochi/55_Interactive LightMix.jpg",
+			"/images/projects/Sochi/66_Interactive LightMix.jpg",
+			"/images/projects/Sochi/77_Interactive LightMix.jpg",
+			"/images/projects/Sochi/88_Interactive LightMix.jpg",
+			"/images/projects/Sochi/99_Interactive LightMix.jpg",
+			"/images/projects/Sochi/IMG_4154.jpg",
+			"/images/projects/Sochi/Ванна 2 эт1.jpg",
+			"/images/projects/Sochi/Ванна 2 эт2.jpg",
+			"/images/projects/Sochi/Ванна 2 эт3.jpg",
+			"/images/projects/Sochi/Ванна 2 эт4.jpg",
+			"/images/projects/Sochi/Ванна 2 эт5.jpg",
+			"/images/projects/Sochi/Ванна 2 эт6.jpg",
+			"/images/projects/Sochi/Ванна 2 эт7.jpg",
+			"/images/projects/Sochi/Ванна 2 эт8.jpg",
+			"/images/projects/Sochi/Ванна 2 эт9.jpg",
+			"/images/projects/Sochi/Ванна 2 эт10.jpg",
+			"/images/projects/Sochi/Ванна 2 эт11.jpg",
+			"/images/projects/Sochi/гостевая 1_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 2_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 3_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 4_4_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 5_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 7_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 8_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 9_Interactive LightMix.jpg",
+			"/images/projects/Sochi/гостевая 10_Interactive LightMix.jpg",
+			"/images/projects/Sochi/готстевая 6_Interactive LightMix.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 1.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 2.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 3.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 4.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 5.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 5_1.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 6.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 7.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 8.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 9.jpg",
+			"/images/projects/Sochi/Спальня 2 этаж 10.jpg"
+		]
+	},
+	{
+		"id": 2,
+		"title": "Проект 2",
+		"imageUrl": "/images/projects/project2/DSC_9282.JPG",
+		"city": "Львів",
+		"area": 85,
+		"images": [
+			"/images/projects/project2/DSC_9282.JPG",
+			"/images/projects/project2/DSC_9455.jpg",
+			"/images/projects/project2/DSC_9480.jpg",
+			"/images/projects/project2/IMG_1736.jpg"
+		]
+	},
+	{
+		"id": 3,
+		"title": "Проект 3",
+		"imageUrl": "/images/projects/project3/DSC_9359.JPG",
+		"city": "Київ",
+		"area": 120,
+		"images": [
+			"/images/projects/project3/DSC_9359.JPG",
+			"/images/projects/project3/DSC_9455.jpg",
+			"/images/projects/project3/DSC_9457.jpg",
+			"/images/projects/project3/DSC_9485.jpg"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Проект 4",
+		"imageUrl": "/images/projects/project4/DSC_9278.JPG",
+		"city": "Львів",
+		"area": 85,
+		"images": [
+			"/images/projects/project4/DSC_9278.JPG",
+			"/images/projects/project4/DSC_9454.jpg",
+			"/images/projects/project4/DSC_9463.jpg",
+			"/images/projects/project4/IMG_1733.jpg"
+		]
+	},
+	{
+		"id": 5,
+		"title": "Проект 5",
+		"imageUrl": "path/to/image1.jpg",
+		"city": "Київ",
+		"area": 120,
+		"images": ["path/to/image1.jpg", "path/to/image2.jpg"]
+	},
+	{
+		"id": 6,
+		"title": "Проект 6",
+		"imageUrl": "path/to/image2.jpg",
+		"city": "Львів",
+		"area": 85,
+		"images": ["path/to/image3.jpg", "path/to/image4.jpg"]
+	}
+]

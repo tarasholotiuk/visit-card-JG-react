@@ -4,7 +4,7 @@ const AboutMe = () => {
 	return (
 		<div className="profile-title">
 			<h2>Обо мне</h2>
-			<article className="profile-container">
+			<article className="profile-container container">
 				<div className="profile-text">
 					<p>Здравствуйте! Меня зовут Евгения Гридина.</p>
 					<p>

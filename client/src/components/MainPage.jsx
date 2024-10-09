@@ -7,10 +7,10 @@ const MainPage = () => {
 
 	// Окремі проекти, які хочемо відобразити
 	const projects = require("../projects.json");
-	const imageUrl1 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
-	const imageUrl2 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
-	const imageUrl3 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
-	const imageUrl4 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
+	// const imageUrl1 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
+	// const imageUrl2 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
+	// const imageUrl3 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
+	// const imageUrl4 = require("../images/projects/Sochi/44_Interactive LightMix.jpg");
 
 	// console.log(projects[0].imageUrl);
 

@@ -29,21 +29,21 @@ const ContactForm = () => {
 
 	return (
 		<div>
-			<h2>Форма зворотнього зв'язку</h2>
+			<h2>Форма обратной связи</h2>
 			<form id="contact-form" onSubmit={handleSubmit}>
-				<label htmlFor="name">Ім'я:</label>
+				<label htmlFor="name">Имя:</label>
 				<input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
 				<br />
 
-				<label htmlFor="email">Електронна пошта:</label>
+				<label htmlFor="email">Электронная почта:</label>
 				<input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
 				<br />
 
-				<label htmlFor="message">Повідомлення:</label>
+				<label htmlFor="message">Сообщение:</label>
 				<textarea id="message" name="message" value={formData.message} onChange={handleChange} required></textarea>
 				<br />
 
-				<button type="submit">Надіслати</button>
+				<button type="submit">Отправить</button>
 			</form>
 		</div>
 	);

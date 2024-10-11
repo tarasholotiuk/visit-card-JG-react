@@ -347,41 +347,54 @@ header {
 }
 
 /* Form styles */
-form {
-	background: white;
+
+.contact-form-container {
+	max-width: 600px;
+	margin: 0 auto;
 	padding: 20px;
-	border-radius: 5px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	margin-top: 20px;
+	background-color: #f9f9f9; /* світлий фон для форми */
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* легка тінь для відокремлення форми */
 }
 
-form label {
-	display: block;
-	margin-bottom: 8px;
-	font-weight: bold;
+.contact-form-container h2 {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 20px;
+	color: #333;
 }
 
-form input,
-form textarea {
+.contact-form-container input,
+.contact-form-container textarea {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 15px;
 	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 1rem;
+	transition: border-color 0.3s ease;
 }
 
-form button {
-	background: #28a745;
-	color: white;
-	padding: 10px 15px;
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+	border-color: #007bff; /* синій колір межі при фокусі */
+	outline: none;
+}
+
+.contact-form-container button {
+	width: 100%;
+	padding: 12px;
+	background-color: #b35f77; /* Змінено на колір стилю */
+	color: #fff;
 	border: none;
-	border-radius: 4px;
+	border-radius: 5px;
+	font-size: 1.1rem;
 	cursor: pointer;
+	transition: background-color 0.3s ease;
 }
 
-form button:hover {
-	background: #218838;
+.contact-form-container button:hover {
+	background-color: #9c7b5c; /* Змінено на більш темний відтінок при наведенні */
 }
 
 /* ScrollToTopButton */
@@ -517,14 +530,14 @@ form button:hover {
 }
 
 /* Footer styles */
-.footer {
+/* .footer {
 	background-color: #333333;
 	color: #fff;
 	padding: 40px 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	width: 100%; /* Футер на всю ширину */
+	width: 100%;
 	box-sizing: border-box;
 }
 
@@ -581,7 +594,7 @@ form button:hover {
 
 .footer-icon:hover {
 	transform: scale(1.1);
-}
+} */
 
 /* Адаптивність для мобільних пристроїв */
 @media (max-width: 768px) {
@@ -659,6 +672,10 @@ form button:hover {
 	.footer {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.contact-form-container {
+		padding: 15px;
 	}
 
 	.footer-links,

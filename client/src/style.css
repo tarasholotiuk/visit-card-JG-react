@@ -584,6 +584,36 @@ header {
 	font-size: 16px;
 }
 
+.footer-contact {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+
+.contact-link {
+	color: #f4f4f4;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+	color: #b35f77;
+}
+
+.footer-socials {
+	display: flex;
+	gap: 15px;
+}
+
+.footer-icon {
+	width: 30px;
+	height: 30px;
+	transition: transform 0.3s ease;
+}
+
+.footer-icon:hover {
+	transform: scale(1.1);
+}
+
 /* Адаптивність для мобільних пристроїв */
 @media (max-width: 768px) {
 	.footer {

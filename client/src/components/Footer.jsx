@@ -28,28 +28,28 @@ const Footer = () => {
 					</a>
 				</p>
 				<div className="footer-socials">
-					<a href="https://t.me/+79816842836">
+					<a href="https://t.me/+79816842836" target="_blank" rel="noopener noreferrer">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Telegram_Messenger.png/240px-Telegram_Messenger.png"
 							alt="Telegram"
 							className="footer-icon"
 						/>
 					</a>
-					<a href="https://wa.me/79816842836">
+					<a href="https://wa.me/79816842836" target="_blank" rel="noopener noreferrer">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"
 							alt="WhatsApp"
 							className="footer-icon"
 						/>
 					</a>
-					<a href="https://vk.com/janegridinadesign">
+					<a href="https://vk.com/janegridinadesign" target="_blank" rel="noopener noreferrer">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/240px-VK.com-logo.svg.png"
 							alt="VK"
 							className="footer-icon"
 						/>
 					</a>
-					<a href="https://www.behance.net/janegridina">
+					<a href="https://www.behance.net/janegridina" target="_blank" rel="noopener noreferrer">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Behance_while_icon.svg/270px-Behance_while_icon.svg.png"
 							alt="Behance"

@@ -29,34 +29,38 @@ const Header = () => {
 				<div className="header-right">
 					<div className="socials-grid">
 						<div className="social-item tg">
-							<a href="https://t.me/+79816842836">
+							<a href="https://t.me/+79816842836" target="_blank" rel="noopener noreferrer">
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Telegram_Messenger.png/240px-Telegram_Messenger.png"
 									alt="Telegram"
+									target="_blank"
 								/>
 							</a>
 						</div>
 						<div className="social-item wt">
-							<a href="https://wa.me/79816842836">
+							<a href="https://wa.me/79816842836" target="_blank" rel="noopener noreferrer">
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"
 									alt="WhatsApp"
+									target="_blank"
 								/>
 							</a>
 						</div>
 						<div className="social-item vk">
-							<a href="https://vk.com/janegridinadesign">
+							<a href="https://vk.com/janegridinadesign" target="_blank" rel="noopener noreferrer">
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/240px-VK.com-logo.svg.png"
 									alt="ВКонтакте"
+									target="_blank"
 								/>
 							</a>
 						</div>
 						<div className="social-item bh">
-							<a href="https://www.behance.net/janegridina">
+							<a href="https://www.behance.net/janegridina" target="_blank" rel="noopener noreferrer">
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Font_Awesome_5_brands_behance.svg/270px-Font_Awesome_5_brands_behance.svg.png"
 									alt="Behance"
+									target="_blank"
 								/>
 							</a>
 						</div>

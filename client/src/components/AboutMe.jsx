@@ -2,8 +2,10 @@ import photo from "../images/IMG_2429.PNG";
 
 const AboutMe = () => {
 	return (
-		<div className="profile-title">
-			<h2>Обо мне</h2>
+		<div className="container">
+			<div className="title">
+				<h2>Обо мне</h2>
+			</div>
 			<article className="profile-container container">
 				<div className="profile-text">
 					<p>Здравствуйте! Меня зовут Евгения Гридина.</p>

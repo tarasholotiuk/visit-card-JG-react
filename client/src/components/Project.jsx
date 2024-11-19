@@ -24,7 +24,7 @@ const Project = () => {
 	};
 
 	return (
-		<div className="projects-container">
+		<div className="projects-container container">
 			{/* <div> */}
 			<div className="project-gallery">
 				<Gallery photos={photos} onClick={(event, { index }) => openLightbox(index)} />

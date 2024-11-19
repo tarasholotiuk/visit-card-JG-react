@@ -65,14 +65,6 @@ a {
 	flex: 1;
 }
 
-h2 {
-	text-align: center;
-	margin: 50px 0 20px 0;
-	font-size: 36px;
-	font-family: "Advent Pro", sans-serif;
-	color: #333333;
-}
-
 /* Header styles */
 header {
 	width: 100%;
@@ -234,22 +226,42 @@ header {
 .mail:hover {
 	color: #b35f77;
 }
+
 /* Стилі основних блоків */
 .container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.title {
+	display: flex;
+	height: 120px;
+	/* text-align: center; */
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0 20px 0;
+	font-size: 36px;
+	font-family: "Advent Pro", sans-serif;
+	color: #333333;
+	background-color: #d6d6d6;
+	border: 2px solid #545454;
+	border-radius: 25px;
+}
+
+/* Профільні стилі */
+.profile-container {
 	display: flex;
 	gap: 30px;
 	background: #fff;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	max-width: 1100px;
+	max-width: 1400px;
 	margin: auto;
 }
 
-/* Профільні стилі */
-
 .profile-text {
-	font-size: 18px;
+	font-size: 24px;
 	font-family: "Lora", serif;
 	text-align: justify;
 	color: #333333;
@@ -383,6 +395,66 @@ header {
 
 .contact-form-container button:hover {
 	background-color: #9c7b5c; /* Змінено на більш темний відтінок при наведенні */
+}
+
+/* Services styles */
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-article-container {
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.services-article-title {
+	display: flex;
+	flex-direction: column;
+	height: 120px;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+	font-family: "Advent Pro", sans-serif;
+	color: #333333;
+	background-color: #d6d6d6;
+	border: 2px solid #545454;
+	border-radius: 25px;
+}
+
+.services-article-title h4 {
+	font-size: 36px;
+}
+
+.services-article-title h3 {
+	font-size: 24px;
+}
+
+.services-left-article {
+	background: linear-gradient(to right, #ffffff, #dac1cd);
+}
+
+.services-right-article {
+	background: linear-gradient(to left, #ffffff, #dac1cd);
+}
+
+.services-article-content {
+	font-size: 18px;
+	font-family: "Lora", serif;
+	font-weight: 500;
+	color: #333333;
+}
+
+.services-article-container ul {
+	list-style: none;
+	padding-left: 10px; /* Зміщення для нового маркера */
+}
+
+.services-article-container ul li::before {
+	content: "- "; /* Додаємо текст у вигляді маркера */
+	color: #333; /* Колір маркера */
+	margin-right: 5px; /* Відступ між маркером і текстом */
 }
 
 /* ScrollToTopButton */
@@ -519,9 +591,8 @@ header {
 
 /* Gallary */
 .projects-container {
-	width: 1400px;
-	margin: auto;
 	display: flex;
+	margin-top: 20px;
 }
 .project-description {
 	display: flex;
@@ -584,7 +655,8 @@ header {
 	font-size: 16px;
 }
 
-.footer-contact {
+/* Footer */
+/* .footer-contact {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
 }
@@ -612,7 +684,7 @@ header {
 
 .footer-icon:hover {
 	transform: scale(1.1);
-}
+} */
 
 /* Адаптивність для мобільних пристроїв */
 @media (max-width: 768px) {

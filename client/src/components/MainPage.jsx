@@ -19,10 +19,12 @@ const MainPage = () => {
 	};
 
 	return (
-		<div>
+		<div className="container">
 			<AboutMe />
 			<div className="main-projects">
-				<h2>Мои проекты</h2>
+				<div className="title">
+					<h2>Мои проекты</h2>
+				</div>
 				<div className="main-projects-container container">
 					{/* Проект 1 */}
 					<div className="main-projects-img-container" onClick={() => handleProjectClick(projects[0])}>

@@ -1,19 +1,18 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footer-links">
-				<a href="/about" className="footer-link">
+				<NavLink to="/" className="footer-link" activeclassname="active">
+					Главная
+				</NavLink>
+				<NavLink to="/about" className="footer-link" activeclassname="active">
 					Обо мне
-				</a>
-				<a href="/projects" className="footer-link">
-					Проекты
-				</a>
-				<a href="/services" className="footer-link">
+				</NavLink>
+				<NavLink to="/services" className="footer-link" activeclassname="active">
 					Услуги и цены
-				</a>
-				<a href="/contacts" className="footer-link">
-					Связаться со мной
-				</a>
+				</NavLink>
 			</div>
 
 			<div className="footer-contacts">

@@ -1,13 +1,8 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-// import "./style.css"; // Ваш файл стилів
+// import { NavLink } from "react-router-dom";
 
 const ScrollToTopButton = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-	// const toggleMenu = () => {
-	// 	setIsMenuOpen(!isMenuOpen);
-	// };
 
 	const handleMouseEnter = () => {
 		setIsMenuOpen(true);
@@ -33,7 +28,7 @@ const ScrollToTopButton = () => {
 			>
 				↑
 			</button>
-			{isMenuOpen && (
+			{/* {isMenuOpen && (
 				<div className={`menu-up ${isMenuOpen ? "active" : ""}`}>
 					<NavLink to="/" className="menu-up-item" onClick={scrollToTop}>
 						В начало
@@ -51,7 +46,7 @@ const ScrollToTopButton = () => {
 						Контакты
 					</NavLink>
 				</div>
-			)}
+			)} */}
 		</div>
 	);
 };

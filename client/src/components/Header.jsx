@@ -1,12 +1,14 @@
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo_ImgID1.png"; // Імпорт логотипа
+import logo from "../images/logo.png"; // Імпорт логотипа
 
 const Header = () => {
 	return (
 		<div>
 			<header>
 				<div className="logo">
-					<img src={logo} alt="err" />
+					<a href="/">
+						<img src={logo} alt="err" />
+					</a>
 				</div>
 				<nav className="menu">
 					<NavLink to="/" className="menu-item" activeclassname="active">
@@ -15,15 +17,15 @@ const Header = () => {
 					<NavLink to="/about" className="menu-item" activeclassname="active">
 						Обо мне
 					</NavLink>
-					<NavLink to="/projects" className="menu-item" activeclassname="active">
+					{/* <NavLink to="/projects" className="menu-item" activeclassname="active">
 						Проекты
-					</NavLink>
+					</NavLink> */}
 					<NavLink to="/services" className="menu-item" activeclassname="active">
 						Услуги и цены
 					</NavLink>
-					<NavLink to="/contacts" className="menu-item" activeclassname="active">
+					{/* <NavLink to="/contacts" className="menu-item" activeclassname="active">
 						Контакты
-					</NavLink>
+					</NavLink> */}
 				</nav>
 
 				<div className="header-right">

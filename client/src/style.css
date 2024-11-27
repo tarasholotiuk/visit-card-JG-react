@@ -350,7 +350,7 @@ header {
 
 .contact-form-container {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 0 auto 25px;
 	padding: 20px;
 	background-color: #f9f9f9; /* світлий фон для форми */
 	border-radius: 10px;
@@ -614,16 +614,17 @@ header {
 	border: none; /* Без рамки */
 	font-size: 24px; /* Розмір шрифту */
 	cursor: pointer; /* Курсор вказівник */
-	transition: background-color 0.3s ease; /* Плавний перехід */
+	transition: transform 0.3s ease;
 
 	position: fixed; /* Фіксуємо на екрані */
-	bottom: 50px; /* Відстань: 20px + висота футера (припустимо, 100px) */
+	bottom: 75px; /* Відстань: 20px + висота футера (припустимо, 100px) */
 	right: 50px; /* Відступ справа */
 	z-index: 100; /* Завжди зверху */
 }
 
 .scroll-button:hover {
-	background-color: #333333;
+	/* background-color: #333333; */
+	transform: scale(1.1);
 }
 /* 
 .scroll-button.active {

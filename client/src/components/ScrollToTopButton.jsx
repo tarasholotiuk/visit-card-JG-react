@@ -28,25 +28,6 @@ const ScrollToTopButton = () => {
 			>
 				↑
 			</button>
-			{/* {isMenuOpen && (
-				<div className={`menu-up ${isMenuOpen ? "active" : ""}`}>
-					<NavLink to="/" className="menu-up-item" onClick={scrollToTop}>
-						В начало
-					</NavLink>
-					<NavLink to="/about" className="menu-up-item">
-						Обо мне
-					</NavLink>
-					<NavLink to="/services" className="menu-up-item">
-						Услуги и цены
-					</NavLink>
-					<NavLink to="/projects" className="menu-up-item">
-						Проекты
-					</NavLink>
-					<NavLink to="/contacts" className="menu-up-item">
-						Контакты
-					</NavLink>
-				</div>
-			)} */}
 		</div>
 	);
 };

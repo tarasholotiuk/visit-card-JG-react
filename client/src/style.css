@@ -1,5 +1,3 @@
-/* src/style.css */
-
 /* CSS Reset */
 *,
 *::before,
@@ -63,6 +61,7 @@ a {
 
 .main {
 	flex: 1;
+	padding: 0 12px;
 }
 
 /* Header styles */
@@ -74,7 +73,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px;
-	color: #333333;
+	/* color: #333333; */
 	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 	gap: 20px;
 }
@@ -86,7 +85,6 @@ header {
 .logo img {
 	height: 100%;
 	width: 246px;
-	/* margin: 0 auto; */
 }
 
 .menu {
@@ -95,6 +93,21 @@ header {
 	justify-content: space-between;
 	width: 100%;
 	max-width: 800px;
+}
+
+.menu-toggle {
+	display: none;
+	flex-direction: column;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+
+.menu-toggle .bar {
+	width: 25px;
+	height: 3px;
+	background-color: #333;
+	margin: 3px 0;
 }
 
 /* Стилі для пунктів меню */
@@ -138,7 +151,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 20px; /* Простір між соцмережами та контактами */
+	gap: 20px;
 }
 
 /* Соцмережі в стилі сітки */
@@ -163,7 +176,6 @@ header {
 }
 
 .social-item img {
-	/* width: 35px; */
 	height: 35px;
 	transition: transform 0.3s ease;
 }
@@ -227,6 +239,30 @@ header {
 	color: #b35f77;
 }
 
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #333;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-links li {
+	margin: 0 10px;
+}
+
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+}
+
 /* Стилі основних блоків */
 .container {
 	max-width: 1400px;
@@ -266,10 +302,10 @@ header {
 	text-align: justify;
 	color: #333333;
 	line-height: 1.8;
-	flex: 2; /* Додає гнучкість для тексту */
+	flex: 2;
 	display: flex;
 	flex-direction: column;
-	justify-content: center; /* Вирівнює текст по центру */
+	justify-content: center;
 }
 
 .profile-text p {
@@ -277,18 +313,22 @@ header {
 }
 
 .profile-image {
-	flex: 1; /* Додає гнучкість для зображення */
+	flex: 1;
 	display: flex;
-	align-items: center; /* Вирівнює зображення по вертикалі */
-	max-height: 100%; /* Зменшує ризик надмірного збільшення зображення */
+	align-items: center;
+	max-height: 100%;
 }
 
 .profile-image img {
 	width: 100%;
 	height: auto;
-	object-fit: cover; /* Забезпечує правильне відображення зображення */
+	object-fit: cover;
 	border-radius: 10px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-wrapper .toggle-button {
+	display: none;
 }
 
 .main-projects {
@@ -297,8 +337,8 @@ header {
 
 .main-projects-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr; /* Дві колонки */
-	grid-gap: 20px; /* Простір між зображеннями */
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
 }
 
 .main-projects-img-container {
@@ -315,7 +355,7 @@ header {
 }
 
 .main-projects-img-container:hover .main-projects-img {
-	transform: scale(1.1); /* Збільшення при наведенні */
+	transform: scale(1.1);
 }
 
 .project-overlay {
@@ -324,7 +364,7 @@ header {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.6); /* Затемнення */
+	background-color: rgba(0, 0, 0, 0.6);
 	color: #fff;
 	display: flex;
 	justify-content: center;
@@ -335,7 +375,7 @@ header {
 }
 
 .main-projects-img-container:hover .project-overlay {
-	opacity: 0; /* Зникає затемнення і текст при наведенні */
+	opacity: 0;
 }
 
 .main-projects-img-container:hover .main-projects-img {
@@ -347,14 +387,13 @@ header {
 }
 
 /* Form styles */
-
 .contact-form-container {
 	max-width: 600px;
 	margin: 0 auto 25px;
 	padding: 20px;
-	background-color: #f9f9f9; /* світлий фон для форми */
+	background-color: #f9f9f9;
 	border-radius: 10px;
-	box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1); /* легка тінь для відокремлення форми */
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form-container h2 {
@@ -377,14 +416,14 @@ header {
 
 .contact-form-container input:focus,
 .contact-form-container textarea:focus {
-	border-color: #007bff; /* синій колір межі при фокусі */
+	border-color: #007bff;
 	outline: none;
 }
 
 .button-send {
 	width: 100%;
 	padding: 12px;
-	background-color: #b35f77; /* Змінено на колір стилю */
+	background-color: #b35f77;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -394,7 +433,7 @@ header {
 }
 
 .button-send:hover {
-	background-color: #333333; /* Змінено на більш темний відтінок при наведенні */
+	background-color: #333333;
 }
 
 /* Services styles */
@@ -458,7 +497,7 @@ header {
 
 .services-article-container ul {
 	list-style: none;
-	padding-left: 10px; /* Зміщення для нового маркера */
+	padding-left: 10px;
 }
 
 .li-check {
@@ -746,153 +785,136 @@ header {
 	flex-direction: column;
 }
 
-/* .project-images {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-	gap: 15px; 
-	padding: 0 15px;
-} */
-
-/* .project-image {
-	cursor: pointer;
-	width: 100%; 
-	height: 100%;
-	object-fit: cover; 
-	border-radius: 8px;
-} */
-
-/* .modal-overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0, 0, 0, 0.8);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	z-index: 1000;
-}
-
-.modal {
-	background: white;
-	padding: 20px;
-	border-radius: 8px;
-	max-width: 90%;
-	max-height: 90%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.modal-image {
-	max-width: 100%;
-	max-height: 80vh;
-	margin-bottom: 15px;
-	border-radius: 8px;
-}
-
-.modal-close {
-	background: #ff5c5c;
-	color: white;
-	border: none;
-	border-radius: 5px;
-	padding: 10px 20px;
-	cursor: pointer;
-	font-size: 16px;
-} */
-
-/* Footer */
-/* .footer-contact {
-	font-family: "Roboto", sans-serif;
-	margin: 0;
-}
-
-.contact-link {
-	color: #f4f4f4;
-	text-decoration: none;
-	transition: color 0.3s ease;
-}
-
-.contact-link:hover {
-	color: #b35f77;
-}
-
-.footer-socials {
-	display: flex;
-	gap: 15px;
-}
-
-.footer-icon {
-	width: 30px;
-	height: 30px;
-	transition: transform 0.3s ease;
-}
-
-.footer-icon:hover {
-	transform: scale(1.1);
-} */
-
 /* Адаптивність для мобільних пристроїв */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+	.menu {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		background-color: #fff;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	}
+
+	.menu.active {
+		display: flex;
+		z-index: 100;
+	}
+
+	.menu-item {
+		padding: 10px 20px;
+		font-size: 18px;
+		color: #333;
+		text-align: center;
+	}
+
+	.menu-toggle {
+		display: flex;
+	}
+
+	.logo img {
+		width: 180px; /* Зменшений розмір логотипа */
+		height: 100%;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.about-me-wrapper:not(.expanded) .profile-container {
+		overflow: hidden;
+		max-height: 210px;
+	}
+
+	.about-me-wrapper .toggle-button {
+		display: block;
+		margin: 10px auto;
+		background-color: #b35f77;
+		color: #fff;
+		border: none;
+		padding: 10px 20px;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+
+	.main-projects-container {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.footer {
 		flex-direction: column;
 		align-items: center;
+		gap: 15px;
 	}
 
 	.footer-links,
 	.footer-contacts {
 		text-align: center;
 	}
-}
 
-@media (max-width: 768px) {
-	.footer {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.footer-links,
-	.footer-contacts {
-		text-align: center;
-	}
-}
-
-/* Адаптивні стилі */
-@media (max-width: 768px) {
 	header {
-		flex-direction: column;
+		flex-direction: row;
 		height: auto;
-		padding: 15px;
+		padding: 5px 15px;
 	}
 
 	.logo {
-		height: 50px;
-		margin-bottom: 10px;
+		height: 70px;
+		/* margin-bottom: 10px; */
 	}
 
 	.menu {
 		flex-direction: column;
 		align-items: center;
-		gap: 10px;
+		gap: 5px;
+		padding-bottom: 10px;
 	}
 
-	.container {
-		margin-top: 10px;
+	.title {
+		height: 60px;
+		font-size: 25px;
+	}
+
+	.services-article-container h3 {
+		font-size: 25px;
+	}
+
+	.services-article-container {
+		width: 100%;
+	}
+
+	.services-article-title {
+		height: 100px;
 	}
 
 	.profile-container {
 		padding: 15px;
 		gap: 15px;
+		margin: 0;
 	}
 
 	.profile-text {
 		font-size: 16px;
 	}
 
-	.profile-image {
-		max-width: 200px;
-	}
+	/* .profile-image {
+		width: 100%;
+		height: 100px; 
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} */
+
+	/* .profile-image img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	} */
 
 	.back-to-top {
 		bottom: 15px;
@@ -901,6 +923,13 @@ header {
 
 	.back-button {
 		padding: 8px 12px; /* Зменшення розмірів для мобільних */
+	}
+
+	.scroll-button {
+		width: 50px;
+		height: 50px;
+		bottom: 25px;
+		right: 30px;
 	}
 
 	.menu-up {

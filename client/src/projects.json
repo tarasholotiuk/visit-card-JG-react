@@ -126,14 +126,14 @@
 		"area": 85,
 		"images": [
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 1.jpg",
-				"width": 1,
-				"height": 1
-			},
-			{
 				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 2.jpg",
 				"width": 3,
 				"height": 2
+			},
+			{
+				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 1.jpg",
+				"width": 1,
+				"height": 1
 			},
 			{
 				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 3.jpg",

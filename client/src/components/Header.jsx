@@ -1,33 +1,61 @@
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../images/logo.png"; // Імпорт логотипа
 
 const Header = () => {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	const toggleMenu = () => {
+		setIsMenuOpen(!isMenuOpen);
+	};
+
+	const closeMenu = () => {
+		setIsMenuOpen(false);
+	};
+
+	useEffect(() => {
+		const handleClickOutside = (event) => {
+			if (isMenuOpen && event.target.closest(".menu") === null && event.target.closest(".menu-toggle") === null) {
+				closeMenu();
+			}
+		};
+
+		document.addEventListener("mousedown", handleClickOutside);
+		return () => {
+			document.removeEventListener("mousedown", handleClickOutside);
+		};
+	}, [isMenuOpen]);
+
 	return (
 		<div>
 			<header>
 				<div className="logo">
 					<a href="/">
-						<img src={logo} alt="err" />
+						<img src={logo} alt="Logo" />
 					</a>
 				</div>
-				<nav className="menu">
-					<NavLink to="/" className="menu-item" activeclassname="active">
+				<nav className={`menu ${isMenuOpen ? "active" : ""}`}>
+					<NavLink to="/" className="menu-item" activeclassname="active" onClick={closeMenu}>
 						Главная
 					</NavLink>
-					<NavLink to="/about" className="menu-item" activeclassname="active">
+					<NavLink to="/about" className="menu-item" activeclassname="active" onClick={closeMenu}>
 						Обо мне
 					</NavLink>
 					{/* <NavLink to="/projects" className="menu-item" activeclassname="active">
-						Проекты
-					</NavLink> */}
-					<NavLink to="/services" className="menu-item" activeclassname="active">
+                        Проекты
+                    </NavLink> */}
+					<NavLink to="/services" className="menu-item" activeclassname="active" onClick={closeMenu}>
 						Услуги и цены
 					</NavLink>
 					{/* <NavLink to="/contacts" className="menu-item" activeclassname="active">
-						Контакты
-					</NavLink> */}
+                        Контакты
+                    </NavLink> */}
 				</nav>
-
+				<button className="menu-toggle" onClick={toggleMenu}>
+					<span className="bar"></span>
+					<span className="bar"></span>
+					<span className="bar"></span>
+				</button>
 				<div className="header-right">
 					<div className="socials-grid">
 						<div className="social-item tg">
@@ -35,7 +63,6 @@ const Header = () => {
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Telegram_Messenger.png/240px-Telegram_Messenger.png"
 									alt="Telegram"
-									target="_blank"
 								/>
 							</a>
 						</div>
@@ -44,7 +71,6 @@ const Header = () => {
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"
 									alt="WhatsApp"
-									target="_blank"
 								/>
 							</a>
 						</div>
@@ -53,7 +79,6 @@ const Header = () => {
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/240px-VK.com-logo.svg.png"
 									alt="ВКонтакте"
-									target="_blank"
 								/>
 							</a>
 						</div>
@@ -62,7 +87,6 @@ const Header = () => {
 								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Font_Awesome_5_brands_behance.svg/270px-Font_Awesome_5_brands_behance.svg.png"
 									alt="Behance"
-									target="_blank"
 								/>
 							</a>
 						</div>
@@ -80,4 +104,5 @@ const Header = () => {
 		</div>
 	);
 };
+
 export default Header;

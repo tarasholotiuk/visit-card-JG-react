@@ -2,117 +2,140 @@
 	{
 		"id": 1,
 		"title": "Нарния",
-		"imageUrl": "/images/projects/Narnia/bedroom/bedroom narnia 1.jpg",
-		"city": "Москва?",
-		"area": "85?",
+		"imageUrl": "/images/projects/Narnia/bedroom narnia 1.jpg",
+		"city": "Санкт Петербург",
+		"area": "44,2 м²",
+		"description": "<p>Квартира для молодой девушки и двух её питомцев оформлена в стиле модерн с элементами современной классики. Основной акцент сделан на спокойные светлые тона, дополненные яркими акцентами в текстиле.</p><p>Главным условием проекта было сохранить ощущение лёгкости пространства, интегрировав элементы для комфортного проживания питомцев: встроенные миски, просторный домик-когтеточка, уютное спальное место для собаки и вместительный лоток для кошки.</p><p>Особое внимание уделено функциональности: предусмотрено большое количество систем хранения и размещение стиральной машины в санузле, скрытой за фасадами мебели, чтобы сохранить эстетичность интерьера.</p>",
 		"images": [
 			{
-				"url": "/images/projects/Narnia/bedroom/bedroom narnia 1.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bedroom narnia 1.jpg",
+				"urlMax": "/images/projects/Narnia/bedroom narnia 1.jpg",
 				"width": 7,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Narnia/bedroom/bedroom narnia 2.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bedroom narnia 2.jpg",
+				"urlMax": "/images/projects/Narnia/bedroom narnia 2.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Narnia/bedroom/bedroom narnia 3.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bedroom narnia 3.jpg",
+				"urlMax": "/images/projects/Narnia/bedroom narnia 3.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Narnia/bedroom/bedroom narnia 4.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bedroom narnia 4.jpg",
+				"urlMax": "/images/projects/Narnia/bedroom narnia 4.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Narnia/bedroom/bedroom narnia 5.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bedroom narnia 5.jpg",
+				"urlMax": "/images/projects/Narnia/bedroom narnia 5.jpg",
 				"width": 595,
 				"height": 791
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 1.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 1.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 1.jpg",
 				"width": 875,
 				"height": 729
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 2.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 2.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 2.jpg",
 				"width": 1204,
 				"height": 1721
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 3.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 3.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 3.jpg",
 				"width": 1204,
 				"height": 1721
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 4.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 4.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 4.jpg",
 				"width": 1204,
 				"height": 1721
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 5.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 5.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 5.jpg",
 				"width": 1204,
 				"height": 1721
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 6.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 6.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 6.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 7.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 7.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 7.jpg",
 				"width": 2,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 8.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 8.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 8.jpg",
 				"width": 1366,
 				"height": 1517
 			},
 			{
-				"url": "/images/projects/Narnia/kitchen living room/kitchen living room narnia 9.jpg",
+				"url": "/images/projects/Narnia/thumbnail/kitchen living room narnia 9.jpg",
+				"urlMax": "/images/projects/Narnia/kitchen living room narnia 9.jpg",
 				"width": 2,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 1.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 1.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 1.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 2.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 2.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 2.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 3.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 3.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 3.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 4.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 4.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 4.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 5.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 5.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 6.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 6.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 6.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 7.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 7.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Narnia/bathroom/bathroom narnia 8.jpg",
+				"url": "/images/projects/Narnia/thumbnail/bathroom narnia 8.jpg",
+				"urlMax": "/images/projects/Narnia/bathroom narnia 8.jpg",
 				"width": 6,
 				"height": 5
 			}
@@ -120,253 +143,303 @@
 	},
 	{
 		"id": 2,
-		"title": "Inspiration 3-x комнатная квартира",
-		"imageUrl": "images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 2.jpg",
+		"title": "Inspiration",
+		"imageUrl": "/images/projects/Inspiration/bedroom Inspiration 2.jpg",
 		"city": "Москва",
-		"area": 85,
+		"area": "95,4 м²",
+		"description": "<p>Проект трехкомнатной квартиры для молодой семьи создан с учетом их пожеланий и потребностей, включая функциональную перепланировку, которая объединила кухню и гостиную в одно просторное и уютное пространство.</p><p>Ключевые особенности планировки:<br/>- Два рабочих места, отделенных стильными ограждениями, что обеспечивает комфортную работу на удаленке или учебу.<br/>- Раздвижной обеденный стол с возможностью разместить большое количество гостей.<br/>- Детская комната, рассчитанная на двух детей, с гибкостью для последующих изменений планировки без значительных затрат.<br/>- Санузлы с ярким акцентным керамогранитом, добавляющим характер пространству, и удобная постирочная зона в малом санузле.<br/>- Открытая гардеробная при мастер-спальне, оформленная в теплых древесных тонах, подчеркивает уют и функциональность.</p><p>В проекте уделено особое внимание стилю и индивидуальности заказчиков.</p>",
 		"images": [
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 2.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 2.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 2.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 1.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 1.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 1.jpg",
 				"width": 1,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 3.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 3.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 3.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 4.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 4.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 4.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 5.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 5.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 5.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 6.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 6.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 6.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 7.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 7.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 8.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 8.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 8.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 9.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 9.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 9.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bedroom inspiration/bedroom Inspiration 9.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bedroom Inspiration 9.jpg",
+				"urlMax": "/images/projects/Inspiration/bedroom Inspiration 9.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 1.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 1.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 1.jpg",
 				"width": 2,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 2.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 2.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 2.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 3.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 3.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 3.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 4.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 4.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 4.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 5.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 5.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 6.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 6.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 6.jpg",
 				"width": 13,
 				"height": 17
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 7.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 7.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 8.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 8.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 8.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 9.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 9.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 9.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 10.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 10.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 10.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 11.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 11.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 11.jpg",
 				"width": 1,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 12.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 12.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 12.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/kitchen livingroom hallway/kitchen livingroom hallway inspiration 13.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/kitchen livingroom hallway inspiration 13.jpg",
+				"urlMax": "/images/projects/Inspiration/kitchen livingroom hallway inspiration 13.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 1.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 1.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 1.jpg",
 				"width": 7,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 2.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 2.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 2.jpg",
 				"width": 7,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 3.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 3.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 3.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 4.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 4.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 4.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 5.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 5.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 5.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 6.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 6.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 6.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 7.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 7.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 7.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 8.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 8.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 8.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 9.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 9.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 9.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 11.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 11.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 11.jpg",
 				"width": 7,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 22.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 22.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 22.jpg",
 				"width": 7,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Inspiration/children's room/childrensroom Inspiration 33.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/childrensroom Inspiration 33.jpg",
+				"urlMax": "/images/projects/Inspiration/childrensroom Inspiration 33.jpg",
 				"width": 7,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 1.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 1.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 1.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 2.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 2.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 2.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 3.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 3.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 3.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 4.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 4.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 4.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 5.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 5.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 6.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 6.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 6.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/bathroom/bathroom Inspiration 7.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/bathroom Inspiration 7.jpg",
+				"urlMax": "/images/projects/Inspiration/bathroom Inspiration 7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 1.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 1.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 1.jpg",
 				"width": 15,
 				"height": 22
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 2.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 2.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 2.jpg",
 				"width": 15,
 				"height": 22
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 3.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 3.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 3.jpg",
 				"width": 15,
 				"height": 22
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 4.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 4.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 4.jpg",
 				"width": 15,
 				"height": 22
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 5.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 5.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 5.jpg",
 				"width": 15,
 				"height": 22
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 6.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 6.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 6.jpg",
 				"width": 15,
 				"height": 22
 			},
 			{
-				"url": "/images/projects/Inspiration/laundry room/laundry room inspiration 7.jpg",
+				"url": "/images/projects/Inspiration/thumbnail/laundry room inspiration 7.jpg",
+				"urlMax": "/images/projects/Inspiration/laundry room inspiration 7.jpg",
 				"width": 15,
 				"height": 22
 			}
@@ -374,283 +447,339 @@
 	},
 	{
 		"id": 3,
-		"title": "Частный дом",
+		"title": "Villa Forest",
 		"imageUrl": "/images/projects/Sochi/bedroom_sochi_women_1.jpg",
 		"city": "Сочи",
-		"area": 120,
+		"area": "223,6 м²",
+		"description": "<p>Этот проект был создан для архитектурной студии Noto Group и расположен в живописном районе города Сочи. Основной концепцией интерьера стало объединение легкости и функциональности, отражающее предпочтения заказчиков и особенности местного климата.</p><p>Интерьер выполнен в мягких и теплых тонах, с акцентом на использование натуральных материалов и оттенков. Это позволило сохранить естественность и гармонию пространства, исключив излишнюю искусственность. За счет панорамного остекления дом наполнен естественным светом, что позволило минимизировать использование осветительных приборов, сохранив интерьер воздушным и ненагруженным.</p><p>Особое внимание уделено спальным комнатам на втором этаже. Здесь, по желанию заказчиков, были организованы спортивные зоны, которые позволили создать баланс между комфортом и активным образом жизни, дополнив пространство великолепными видами на природу.</p>",
 		"images": [
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_4.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_4.jpg",
 				"width": 343,
 				"height": 117
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_1.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_1.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_2.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_2.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_3.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_3.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_6.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_6.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_6.jpg",
 				"width": 289,
 				"height": 101
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_5.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_5.jpg",
 				"width": 3,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_8.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_8.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_8.jpg",
 				"width": 16,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_9.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_9.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_9.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_7.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_7.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_7.jpg",
 				"width": 3,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_10.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_10.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_10.jpg",
 				"width": 1,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Sochi/living_hallway_sochi_11.jpg",
+				"url": "/images/projects/Sochi/thumbnail/living_hallway_sochi_11.jpg",
+				"urlMax": "/images/projects/Sochi/living_hallway_sochi_11.jpg",
 				"width": 1,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_1.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_1.jpg",
 				"width": 28,
 				"height": 19
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_2.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_2.jpg",
 				"width": 5,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_3.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_3.jpg",
 				"width": 4,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_4.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_4.jpg",
 				"width": 2,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_5.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_5.jpg",
 				"width": 2,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_6.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_6.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_6.jpg",
 				"width": 5,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_7.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_7.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_women_8.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_women_8.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_women_8.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_1.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_1.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_2.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_2.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_3.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_3.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_4.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_4.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_5.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_6.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_6.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_6.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_women_7.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_women_7.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_women_7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_1.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_1.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_2.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_2.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_3.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_3.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_4.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_4.jpg",
 				"width": 8,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_5.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_5.jpg",
 				"width": 8,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_6.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_6.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_6.jpg",
 				"width": 8,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/bedroom_sochi_men_7.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bedroom_sochi_men_7.jpg",
+				"urlMax": "/images/projects/Sochi/bedroom_sochi_men_7.jpg",
 				"width": 8,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_men_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_men_1.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_men_1.jpg",
 				"width": 6,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_men_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_men_2.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_men_2.jpg",
 				"width": 15,
 				"height": 13
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_men_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_men_3.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_men_3.jpg",
 				"width": 15,
 				"height": 13
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_men_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_men_4.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_men_4.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_men_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_men_5.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_men_5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_men_6.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_men_6.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_men_6.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/wardrobe_sochi_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/wardrobe_sochi_1.jpg",
+				"urlMax": "/images/projects/Sochi/wardrobe_sochi_1.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/wardrobe_sochi_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/wardrobe_sochi_2.jpg",
+				"urlMax": "/images/projects/Sochi/wardrobe_sochi_2.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/wardrobe_sochi_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/wardrobe_sochi_3.jpg",
+				"urlMax": "/images/projects/Sochi/wardrobe_sochi_3.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/wardrobe_sochi_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/wardrobe_sochi_4.jpg",
+				"urlMax": "/images/projects/Sochi/wardrobe_sochi_4.jpg",
 				"width": 9,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_1.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_1.jpg",
 				"width": 8,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_2.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_2.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_3.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_3.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_4.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_4.jpg",
 				"width": 10,
 				"height": 7
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_5.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_6.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_6.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_6.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/guest_bedroom_sochi_7.jpg",
+				"url": "/images/projects/Sochi/thumbnail/guest_bedroom_sochi_7.jpg",
+				"urlMax": "/images/projects/Sochi/guest_bedroom_sochi_7.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_1etazh_1.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_1etazh_1.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_1etazh_1.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_1etazh_2.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_1etazh_2.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_1etazh_2.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_1etazh_3.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_1etazh_3.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_1etazh_3.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_1etazh_4.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_1etazh_4.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_1etazh_4.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Sochi/bathroom_sochi_1etazh_5.jpg",
+				"url": "/images/projects/Sochi/thumbnail/bathroom_sochi_1etazh_5.jpg",
+				"urlMax": "/images/projects/Sochi/bathroom_sochi_1etazh_5.jpg",
 				"width": 4,
 				"height": 5
 			}
@@ -658,209 +787,186 @@
 	},
 	{
 		"id": 4,
-		"title": "Частный дом 1 этаж",
+		"title": "Monochrome",
 		"imageUrl": "/images/projects/Ozerki/main.jpg",
-		"city": "Озерки",
-		"area": 120,
+		"city": "Санкт Петербург д. Озерки",
+		"area": "115 м²",
+		"description": "<p>Дизайн-проект частного дома выполнен в стиле модерн с акцентом на монохромную цветовую гамму, соответствующую пожеланиям заказчиков. Для создания баланса и придания интерьеру тепла, монохром дополняют напольное покрытие в ярком древесном оттенке, горчичные текстильные акценты в спальне и выразительные черные детали в декоре, освещении и мебели.</p><p>В кухне-гостиной приоритетом стало функциональное зонирование: пространство разделено на уютную зону отдыха и удобную зону приготовления пищи. В спальне создана продуманная рабочая зона, которая совмещает функции кабинета и туалетного столика для хозяйки дома, обеспечивая универсальность и комфорт.</p><p>В санузле основной задачей было сохранить максимум света и визуального пространства, при этом добавив большую стильную тумбу с видом на окружающий лес, что создает гармоничное и эстетичное завершение интерьера.</p>",
 		"images": [
 			{
-				"url": "/images/projects/Ozerki/guest bedroom ozerki 1.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/guest bedroom ozerki 1.jpg",
+				"urlMax": "/images/projects/Ozerki/guest bedroom ozerki 1.jpg",
 				"width": 220,
 				"height": 157
 			},
 			{
-				"url": "/images/projects/Ozerki/guest bedroom ozerki 2.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/guest bedroom ozerki 2.jpg",
+				"urlMax": "/images/projects/Ozerki/guest bedroom ozerki 2.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Ozerki/guest bedroom ozerki 3.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/guest bedroom ozerki 3.jpg",
+				"urlMax": "/images/projects/Ozerki/guest bedroom ozerki 3.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/guest bedroom ozerki 4.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/guest bedroom ozerki 4.jpg",
+				"urlMax": "/images/projects/Ozerki/guest bedroom ozerki 4.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/guest bedroom ozerki 5.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/guest bedroom ozerki 5.jpg",
+				"urlMax": "/images/projects/Ozerki/guest bedroom ozerki 5.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 1.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 1.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 1.jpg",
 				"width": 4,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 2.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 2.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 2.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 3.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 3.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 3.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 4.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 4.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 4.jpg",
 				"width": 4,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 5.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 5.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 5.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 6.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 6.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 6.jpg",
 				"width": 4,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 7.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 7.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 7.jpg",
 				"width": 17,
 				"height": 10
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 8.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 8.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 8.jpg",
 				"width": 4,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 9.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 9.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 9.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 10.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 10.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 10.jpg",
 				"width": 4,
 				"height": 3
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 11.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 11.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 11.jpg",
 				"width": 15,
 				"height": 11
 			},
 			{
-				"url": "/images/projects/Ozerki/kitchen living room ozerki 12.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/kitchen living room ozerki 12.jpg",
+				"urlMax": "/images/projects/Ozerki/kitchen living room ozerki 12.jpg",
 				"width": 4,
 				"height": 5
 			},
 			{
-				"url": "/images/projects/Ozerki/bathroom ozerki 1.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/bathroom ozerki 1.jpg",
+				"urlMax": "/images/projects/Ozerki/bathroom ozerki 1.jpg",
 				"width": 1,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Ozerki/bathroom ozerki 2.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/bathroom ozerki 2.jpg",
+				"urlMax": "/images/projects/Ozerki/bathroom ozerki 2.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Ozerki/bathroom ozerki 3.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/bathroom ozerki 3.jpg",
+				"urlMax": "/images/projects/Ozerki/bathroom ozerki 3.jpg",
 				"width": 1,
 				"height": 1
 			},
 			{
-				"url": "/images/projects/Ozerki/bathroom ozerki 4.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/bathroom ozerki 4.jpg",
+				"urlMax": "/images/projects/Ozerki/bathroom ozerki 4.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Ozerki/bathroom ozerki 5.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/bathroom ozerki 5.jpg",
+				"urlMax": "/images/projects/Ozerki/bathroom ozerki 5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Ozerki/bathroom ozerki 6.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/bathroom ozerki 6.jpg",
+				"urlMax": "/images/projects/Ozerki/bathroom ozerki 6.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Ozerki/hallway ozerki 1.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 1.jpg",
+				"urlMax": "/images/projects/Ozerki/hallway ozerki 1.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Ozerki/hallway ozerki 2.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 2.jpg",
+				"urlMax": "/images/projects/Ozerki/hallway ozerki 2.jpg",
 				"width": 3,
 				"height": 2
 			},
 			{
-				"url": "/images/projects/Ozerki/hallway ozerki 3.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 3.jpg",
+				"urlMax": "/images/projects/Ozerki/hallway ozerki 3.jpg",
 				"width": 7,
 				"height": 9
 			},
 			{
-				"url": "/images/projects/Ozerki/hallway ozerki 4.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 4.jpg",
+				"urlMax": "/images/projects/Ozerki/hallway ozerki 4.jpg",
 				"width": 7,
 				"height": 9
 			},
 			{
-				"url": "/images/projects/Ozerki/hallway ozerki 5.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 5.jpg",
+				"urlMax": "/images/projects/Ozerki/hallway ozerki 5.jpg",
 				"width": 3,
 				"height": 4
 			},
 			{
-				"url": "/images/projects/Ozerki/hallway ozerki 6.jpg",
+				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 6.jpg",
+				"urlMax": "/images/projects/Ozerki/hallway ozerki 6.jpg",
 				"width": 3,
 				"height": 4
 			}
 		]
-	},
-	{
-		"id": 5,
-		"title": "Частный дом 2 этаж",
-		"imageUrl": "/images/projects/Sochi-2-floor/Спальня 2 этаж 1.jpg",
-		"city": "Сочи",
-		"area": 85,
-		"images": [
-			"/images/projects/Sochi-2-floor/IMG_8633.jpg",
-			"/images/projects/Sochi-2-floor/IMG_8634.jpg",
-			"/images/projects/Sochi-2-floor/IMG_8635.jpg",
-			"/images/projects/Sochi-2-floor/IMG_8636.jpg",
-			"/images/projects/Sochi-2-floor/IMG_8637.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт1.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт2.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт3.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт4.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт5.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт6.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт7.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт8.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт9.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт10.jpg",
-			"/images/projects/Sochi-2-floor/Ванна 2 эт11.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 1.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 2.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 3.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 4.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 5.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 5_1.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 6.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 7.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 8.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 9.jpg",
-			"/images/projects/Sochi-2-floor/Спальня 2 этаж 10.jpg"
-		]
-	},
-
-	{
-		"id": 6,
-		"title": "Проект 5",
-		"imageUrl": "path/to/image1.jpg",
-		"city": "Київ",
-		"area": 120,
-		"images": ["path/to/image1.jpg", "path/to/image2.jpg"]
-	},
-	{
-		"id": 7,
-		"title": "Проект 6",
-		"imageUrl": "path/to/image2.jpg",
-		"city": "Львів",
-		"area": 85,
-		"images": ["path/to/image3.jpg", "path/to/image4.jpg"]
 	}
 ]

@@ -1,4 +1,4 @@
-import photo from "../images/main.PNG";
+import photo from "../images/main.jpg";
 
 const AboutMe = () => {
 	return (

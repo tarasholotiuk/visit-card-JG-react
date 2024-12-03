@@ -10,6 +10,9 @@ const Footer = () => {
 				<NavLink to="/about" className="footer-link" activeclassname="active">
 					Обо мне
 				</NavLink>
+				<NavLink to="/projects" className="footer-link" activeclassname="active">
+					Проекты
+				</NavLink>
 				<NavLink to="/services" className="footer-link" activeclassname="active">
 					Услуги и цены
 				</NavLink>

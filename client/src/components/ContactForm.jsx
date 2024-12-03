@@ -24,7 +24,7 @@ const ContactForm = ({ packageName, onClose }) => {
 			)
 			.then(
 				(result) => {
-					alert("Повідомлення успішно надіслано!");
+					alert("Сообщение отправлено!");
 					setFormData({ name: "", email: "", message: "" }); // Очистити форму
 					if (onClose) {
 						onClose();
@@ -32,7 +32,7 @@ const ContactForm = ({ packageName, onClose }) => {
 				},
 
 				(error) => {
-					alert("Помилка при відправці: " + error.text);
+					alert("Ошибка при отправке: " + error.text);
 				}
 			);
 	};

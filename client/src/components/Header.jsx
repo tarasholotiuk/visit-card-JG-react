@@ -41,9 +41,9 @@ const Header = () => {
 					<NavLink to="/about" className="menu-item" activeclassname="active" onClick={closeMenu}>
 						Обо мне
 					</NavLink>
-					{/* <NavLink to="/projects" className="menu-item" activeclassname="active">
-                        Проекты
-                    </NavLink> */}
+					<NavLink to="/projects" className="menu-item" activeclassname="active" onClick={closeMenu}>
+						Проекты
+					</NavLink>
 					<NavLink to="/services" className="menu-item" activeclassname="active" onClick={closeMenu}>
 						Услуги и цены
 					</NavLink>

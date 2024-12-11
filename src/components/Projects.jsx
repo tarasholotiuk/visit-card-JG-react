@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 const Projects = () => {
 	const navigate = useNavigate();
@@ -18,9 +19,9 @@ const Projects = () => {
 						<p>{project.area}</p>
 					</div>
 					<img className="projects-img" src={project.imageUrl} alt={project.title} loading="lazy" />
-					{/* <div className="project-overlay">{project.title}</div> */}
 				</div>
 			))}
+			<ContactForm />
 		</div>
 	);
 };

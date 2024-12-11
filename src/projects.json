@@ -789,7 +789,7 @@
 		"id": 4,
 		"title": "Monochrome",
 		"imageUrl": "/images/projects/Ozerki/main.jpg",
-		"city": "Санкт Петербург д. Озерки",
+		"city": "Санкт Петербург д.Озерки",
 		"area": "115 м²",
 		"description": "<p>Дизайн-проект частного дома выполнен в стиле модерн с акцентом на монохромную цветовую гамму, соответствующую пожеланиям заказчиков. Для создания баланса и придания интерьеру тепла, монохром дополняют напольное покрытие в ярком древесном оттенке, горчичные текстильные акценты в спальне и выразительные черные детали в декоре, освещении и мебели.</p><p>В кухне-гостиной приоритетом стало функциональное зонирование: пространство разделено на уютную зону отдыха и удобную зону приготовления пищи. В спальне создана продуманная рабочая зона, которая совмещает функции кабинета и туалетного столика для хозяйки дома, обеспечивая универсальность и комфорт.</p><p>В санузле основной задачей было сохранить максимум света и визуального пространства, при этом добавив большую стильную тумбу с видом на окружающий лес, что создает гармоничное и эстетичное завершение интерьера.</p>",
 		"images": [
@@ -964,6 +964,76 @@
 			{
 				"url": "/images/projects/Ozerki/thumbnail/hallway ozerki 6.jpg",
 				"urlMax": "/images/projects/Ozerki/hallway ozerki 6.jpg",
+				"width": 3,
+				"height": 4
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Студия косметолога",
+		"imageUrl": "/images/projects/Studia-Olga/olga_studia_1.jpg",
+		"city": "Санкт Петербург",
+		"area": "22 м²",
+		"description": "<p>Представляю экспресс-проект для частного косметолога Ольги Волосевич, реализованный в Санкт-Петербурге. Задача проекта заключалась в создании стильного и функционального пространства для работы косметолога и мастера маникюра в максимально сжатые сроки.</p><p>В работе использованы готовые мебельные решения и аксессуары, что позволило не только ускорить процесс реализации, но и сохранить легкость и гармонию интерьера. Пространство организовано таким образом, чтобы обеспечить комфорт для клиентов и удобство для специалистов, оставаясь при этом визуально привлекательным и современным.</p><p>Посмотреть мини-тур по проекту можно по <a href='https://kuula.co/post/n1/collection/7ZWhk' target='_blank'><italic><strong><u>ссылке</u></strong></italic></a>.</p>",
+		"images": [
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_1.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_1.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_2.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_2.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_3.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_3.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_4.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_4.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_5.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_5.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_6.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_6.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_7.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_7.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_8.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_8.jpg",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_9.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_9.jpg",
+				"width": 3,
+				"height": 4
+			},
+			{
+				"url": "/images/projects/Studia-Olga/thumbnail/olga_studia_10.jpg",
+				"urlMax": "/images/projects/Studia-Olga/olga_studia_10.jpg",
 				"width": 3,
 				"height": 4
 			}

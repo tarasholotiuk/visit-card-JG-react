@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.png"; // Імпорт логотипа
+import logo from "../images/JG_Design_logo_transparent.svg"; // Імпорт логотипа
+import telegramIcon from "../images/telegram.svg";
+import whatsappIcon from "../images/whatsapp.svg";
+import instagramIcon from "../images/instagram.svg";
+import behanceIcon from "../images/behance.svg";
 
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,34 +64,22 @@ const Header = () => {
 					<div className="socials-grid">
 						<div className="social-item tg">
 							<a href="https://t.me/+79816842836" target="_blank" rel="noopener noreferrer">
-								<img
-									src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Telegram_Messenger.png/240px-Telegram_Messenger.png"
-									alt="Telegram"
-								/>
+								<img src={telegramIcon} alt="Telegram" />
 							</a>
 						</div>
 						<div className="social-item wt">
 							<a href="https://wa.me/79816842836" target="_blank" rel="noopener noreferrer">
-								<img
-									src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/240px-WhatsApp.svg.png"
-									alt="WhatsApp"
-								/>
+								<img src={whatsappIcon} alt="WhatsApp" />
 							</a>
 						</div>
-						<div className="social-item vk">
-							<a href="https://vk.com/janegridinadesign" target="_blank" rel="noopener noreferrer">
-								<img
-									src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/240px-VK.com-logo.svg.png"
-									alt="ВКонтакте"
-								/>
+						<div className="social-item ig">
+							<a href="https://www.instagram.com/jg_design.ru/" target="_blank" rel="noopener noreferrer">
+								<img src={instagramIcon} alt="Instagram" />
 							</a>
 						</div>
 						<div className="social-item bh">
 							<a href="https://www.behance.net/janegridina" target="_blank" rel="noopener noreferrer">
-								<img
-									src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Font_Awesome_5_brands_behance.svg/270px-Font_Awesome_5_brands_behance.svg.png"
-									alt="Behance"
-								/>
+								<img src={behanceIcon} alt="Behance" />
 							</a>
 						</div>
 					</div>

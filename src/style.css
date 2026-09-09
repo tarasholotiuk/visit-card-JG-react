@@ -21,7 +21,7 @@ body {
 body {
 	font-family: Arial, sans-serif;
 	line-height: 1.5;
-	background-color: #f4f4f4;
+	background-color: #fdf3df;
 	padding: 0px;
 }
 
@@ -73,7 +73,7 @@ a {
 header {
 	width: 100%;
 	height: 130px;
-	background: linear-gradient(to right, #ffffff, #b35f77);
+	background: linear-gradient(to right, #d49264, #9f5736);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -88,8 +88,8 @@ header {
 } */
 
 .logo img {
-	height: 90px;
-	max-width: 245px;
+	/* height: 90px; */
+	max-width: 450px;
 }
 
 .menu {
@@ -126,10 +126,10 @@ header {
 	transition: color 0.3s;
 }
 
-.menu-item:hover,
+/* .menu-item:hover,
 .menu-item.active {
-	color: #b35f77;
-}
+	color: #a75c3a;
+} */
 
 .menu-item::after {
 	content: "";
@@ -178,10 +178,20 @@ header {
 	width: 100%;
 	height: 100%;
 	position: relative;
+	z-index: 1;
+}
+
+.social-item a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
 }
 
 .social-item img {
-	height: 35px;
+	height: 40px;
+	width: 40px;
 	transition: transform 0.3s ease;
 }
 
@@ -195,6 +205,7 @@ header {
 	content: "";
 	position: absolute;
 	background-color: #333;
+	pointer-events: none;
 }
 
 .socials-grid::before {
@@ -229,7 +240,7 @@ header {
 }
 
 .phone:hover {
-	color: #b35f77;
+	color: #fdf3df;
 }
 
 .mail {
@@ -241,7 +252,7 @@ header {
 }
 
 .mail:hover {
-	color: #b35f77;
+	color: #fdf3df;
 }
 
 .navbar {
@@ -283,7 +294,7 @@ header {
 	font-size: 36px;
 	font-family: "Advent Pro", sans-serif;
 	color: #333333;
-	background-color: #bbb8b8;
+	background-color: #979b65;
 	border: 1px solid #a1a1a1;
 	border-radius: 15px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -293,7 +304,7 @@ header {
 .profile-container {
 	display: flex;
 	gap: 30px;
-	background: #fff;
+	background: #fdf3df;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.01);
@@ -391,7 +402,9 @@ header {
 	overflow: hidden; /* Прибираємо вихідні елементи */
 	background-color: #fff;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
 	cursor: pointer; /* Курсор для інтерактивності */
 }
 
@@ -495,7 +508,7 @@ header {
 .button-send {
 	width: 100%;
 	padding: 12px;
-	background-color: #b35f77;
+	background-color: #979b65;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -520,7 +533,9 @@ header {
 	margin-bottom: 4%;
 	border-radius: 15px;
 	overflow: hidden;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 	display: flex;
 	flex-direction: column;
@@ -551,11 +566,11 @@ header {
 }
 
 .services-left-article {
-	background: linear-gradient(to left, #ffffff, #c68799);
+	background: linear-gradient(to left, #fdf3df, #cc7a50);
 }
 
 .services-right-article {
-	background: linear-gradient(to right, #ffffff, #c68799);
+	background: linear-gradient(to right, #fdf3df, #cc7a50);
 }
 
 .services-article-content {
@@ -588,13 +603,13 @@ header {
 .li-cross:hover {
 	font-weight: 700;
 	transform: scale(1.02);
-	color: #b35f77;
+	color: #a75c3a;
 }
 
 .open-modal-button {
 	padding: 10px 20px;
-	background-color: #b35f77;
-	color: #ffffff;
+	background-color: #979b65;
+	color: #fdf3df;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
@@ -656,7 +671,7 @@ header {
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background-color: #b35f77;
+	background-color: #cc7a50;
 	color: white;
 	border: none;
 	font-size: 24px;
@@ -684,7 +699,9 @@ header {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	opacity: 0;
 	transform: translateY(10px);
-	transition: opacity 0.3s ease, transform 0.3s ease;
+	transition:
+		opacity 0.3s ease,
+		transform 0.3s ease;
 	pointer-events: none;
 	width: 200px;
 	z-index: 1000;
@@ -695,12 +712,14 @@ header {
 	text-align: center;
 	color: #333;
 	text-decoration: none;
-	transition: background-color 0.3s ease, color 0.3s ease;
+	transition:
+		background-color 0.3s ease,
+		color 0.3s ease;
 }
 
 .menu-up-item:hover {
 	background-color: #f4f4f4;
-	color: #b35f77;
+	color: #a75c3a;
 }
 
 .scroll-to-top .menu-up.active {
@@ -737,7 +756,7 @@ header {
 }
 
 .footer-link:hover {
-	color: #b35f77;
+	color: #a75c3a;
 }
 
 .footer-slider {
@@ -767,19 +786,21 @@ header {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 
 .slider-image {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	transition: opacity 1s ease, transform 1s ease;
-	opacity: 1;
+	transition: opacity 1s ease-in-out;
+	/* transition: opacity 1s ease, transform 1s ease; */
+	opacity: 0;
 	transform: scale(1);
 }
 
-.slider-image.hidden {
-	opacity: 0;
+.slider-image.visible {
+	opacity: 1;
 	transform: scale(0.95);
 }
 
@@ -802,17 +823,25 @@ header {
 }
 
 .contact-link:hover {
-	color: #b35f77;
+	color: #a75c3a;
 }
 
 .footer-socials {
 	display: flex;
 	gap: 15px;
+	position: relative;
+	z-index: 1;
+}
+
+.footer-socials a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer-icon {
-	width: 30px;
-	height: 30px;
+	width: 36px;
+	height: 36px;
 	transition: transform 0.3s ease;
 }
 
@@ -881,7 +910,7 @@ header {
 	}
 
 	.logo img {
-		width: 180px;
+		width: 250px;
 		height: 100%;
 	}
 
@@ -893,7 +922,7 @@ header {
 	.about-me-wrapper .toggle-button {
 		display: block;
 		margin: 10px auto;
-		background-color: #b35f77;
+		background-color: #a75c3a;
 		color: #fff;
 		border: none;
 		padding: 10px 20px;
@@ -988,7 +1017,7 @@ header {
 		height: 100px;
 	}
 	.services-right-article {
-		background: linear-gradient(to left, #ffffff, #c68799);
+		background: linear-gradient(to left, #fdf3df, #cc7a50);
 	}
 
 	.services-article-content {
@@ -1015,6 +1044,10 @@ header {
 	.project-description-container img {
 		max-width: 100%;
 		height: auto;
+	}
+
+	.footer-slider {
+		display: none;
 	}
 
 	/* .profile-image {

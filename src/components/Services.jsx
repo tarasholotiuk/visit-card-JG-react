@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ContactForm from "./ContactForm.jsx";
+// import ContactForm from "./ContactForm.jsx";
 import ModalServices from "./ModalServices.jsx";
 
 const Services = () => {
@@ -226,7 +226,7 @@ const Services = () => {
 				))}
 			</div>
 			{isModalOpen && <ModalServices selectedPackage={selectedPackage} onClose={closeModal} />}
-			<ContactForm />
+			{/* <ContactForm /> */}
 		</div>
 	);
 };

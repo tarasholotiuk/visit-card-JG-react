@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 
 const Projects = () => {
 	const navigate = useNavigate();
@@ -21,7 +21,7 @@ const Projects = () => {
 					<img className="projects-img" src={project.imageUrl} alt={project.title} loading="lazy" />
 				</div>
 			))}
-			<ContactForm />
+			{/* <ContactForm /> */}
 		</div>
 	);
 };

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 import AboutMe from "./AboutMe";
 import { useNavigate } from "react-router-dom";
 
@@ -47,7 +47,7 @@ const MainPage = () => {
 					</div>
 				</div>
 			</div>
-			<ContactForm />
+			{/* <ContactForm /> */}
 		</div>
 	);
 };

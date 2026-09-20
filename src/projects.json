@@ -1,5 +1,183 @@
 [
 	{
+		"id": 0,
+		"title": "Harmony Flow",
+		"imageUrl": "/images/projects/Harmony Flow/gostinaya_0.png",
+		"city": "Санкт Петербург",
+		"area": "42 м²",
+		"description": "<p>Проект квартиры для молодого человека создан с учётом не только его сегодняшнего образа жизни, но и перспективы создания семьи. Основной задачей стало сформировать уютное, функциональное и универсальное пространство, которое сможет оставаться комфортным и актуальным с течением времени.</p><p>В основе интерьера — спокойные светлые оттенки и натуральные древесные текстуры. Характер пространству придают более насыщенные цветовые акценты: винные, синие, охристые и зелёные тона, использованные в мебели, текстиле и декоративных элементах.</p><p>Особое внимание уделено функциональности небольшой площади: продуманным системам хранения, удобному зонированию и визуальной целостности всех помещений. При достаточно сдержанной основе интерьер получился индивидуальным и выразительным, сохранив ощущение лёгкости, тепла и домашнего уюта.</p>",
+		"images": [
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_0.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_0.png",
+				"width": 5,
+				"height": 3
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_1.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_1.png",
+				"width": 9,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_2.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_2.png",
+				"width": 6,
+				"height": 7
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_3.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_3.png",
+				"width": 6,
+				"height": 7
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_4.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_4.png",
+				"width": 6,
+				"height": 7
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_5.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_5.png",
+				"width": 6,
+				"height": 7
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_6.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_6.png",
+				"width": 6,
+				"height": 7
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/gostinaya_7.jpg",
+				"urlMax": "/images/projects/Harmony Flow/gostinaya_7.png",
+				"width": 13,
+				"height": 8
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/spalnya_0.jpg",
+				"urlMax": "/images/projects/Harmony Flow/spalnya_0.png",
+				"width": 3,
+				"height": 2
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/spalnya_1.jpg",
+				"urlMax": "/images/projects/Harmony Flow/spalnya_1.png",
+				"width": 5,
+				"height": 4
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/spalnya_2.jpg",
+				"urlMax": "/images/projects/Harmony Flow/spalnya_2.png",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/spalnya_3.jpg",
+				"urlMax": "/images/projects/Harmony Flow/spalnya_3.png",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/spalnya_4.jpg",
+				"urlMax": "/images/projects/Harmony Flow/spalnya_4.png",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/spalnya_5.jpg",
+				"urlMax": "/images/projects/Harmony Flow/spalnya_5.png",
+				"width": 3,
+				"height": 2
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/sanuzel_0.jpg",
+				"urlMax": "/images/projects/Harmony Flow/sanuzel_0.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/sanuzel_1.jpg",
+				"urlMax": "/images/projects/Harmony Flow/sanuzel_1.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/sanuzel_2.jpg",
+				"urlMax": "/images/projects/Harmony Flow/sanuzel_2.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/sanuzel_3.jpg",
+				"urlMax": "/images/projects/Harmony Flow/sanuzel_3.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/sanuzel_4.jpg",
+				"urlMax": "/images/projects/Harmony Flow/sanuzel_4.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/sanuzel_5.jpg",
+				"urlMax": "/images/projects/Harmony Flow/sanuzel_5.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/prihozhaya_0.jpg",
+				"urlMax": "/images/projects/Harmony Flow/prihozhaya_0.png",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/prihozhaya_1.jpg",
+				"urlMax": "/images/projects/Harmony Flow/prihozhaya_1.png",
+				"width": 6,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/prihozhaya_2.jpg",
+				"urlMax": "/images/projects/Harmony Flow/prihozhaya_2.png",
+				"width": 4,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/prihozhaya_3.jpg",
+				"urlMax": "/images/projects/Harmony Flow/prihozhaya_3.png",
+				"width": 4,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/prihozhaya_4.jpg",
+				"urlMax": "/images/projects/Harmony Flow/prihozhaya_4.png",
+				"width": 4,
+				"height": 5
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/kladovaya_1.jpg",
+				"urlMax": "/images/projects/Harmony Flow/kladovaya_1.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/kladovaya_2.jpg",
+				"urlMax": "/images/projects/Harmony Flow/kladovaya_2.png",
+				"width": 7,
+				"height": 10
+			},
+			{
+				"url": "/images/projects/Harmony Flow/thumbnail/kladovaya_3.jpg",
+				"urlMax": "/images/projects/Harmony Flow/kladovaya_3.png",
+				"width": 7,
+				"height": 10
+			}
+		]
+	},
+	{
 		"id": 1,
 		"title": "Нарния",
 		"imageUrl": "/images/projects/Narnia/bedroom narnia 1.jpg",

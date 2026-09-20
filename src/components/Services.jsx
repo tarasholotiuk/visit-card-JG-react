@@ -216,12 +216,12 @@ const Services = () => {
 						<div className={`services-article-content ${openArticleId === article.id ? " open" : ""}`}>
 							{article.content}
 						</div>
-						<button
+						{/* <button
 							className={`open-modal-button${openArticleId === article.id ? " open" : ""} `}
 							onClick={() => openModal(article.button)}
 						>
 							Оставить заявку
-						</button>
+						</button> */}
 					</article>
 				))}
 			</div>
